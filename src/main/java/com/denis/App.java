@@ -13,5 +13,6 @@ public class App
         Controller controller = new Controller(model, view);
 
         controller.processData();
+        System.out.println();
     }
 }
