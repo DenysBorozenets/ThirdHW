@@ -45,16 +45,6 @@ public class Model {
         else if (compare == MORE) {
             minBarrier = number + 1;
         }
-//        switch (compare) {
-//            case LESS: {
-//                maxBarrier = number - 1;
-//                break;
-//            }
-//            case MORE: {
-//                minBarrier = number + 1;
-//                break;
-//            }
-//        }
         return compare;
     }
 

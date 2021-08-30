@@ -22,12 +22,12 @@ package com.denis;
         public void printMessageAndValue(String message, Object... objects){
             System.out.printf(message, objects);
         }
+
         public void printTries(Iterable<Integer> tries){
             StringBuilder stringBuilder = new StringBuilder(TRIES);
             for (int tryWay: tries) {
                 stringBuilder.append(tryWay).append(SPACE);
             }
-            //stringBuilder.delete(stringBuilder.length()-SPACE.length(), stringBuilder.length());
             printMessage(stringBuilder.toString());
         }
     }
